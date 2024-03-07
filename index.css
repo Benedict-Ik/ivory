@@ -17,9 +17,8 @@ html{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 5.5rem;
     max-height: 100vh;
-    margin-bottom: 5rem;
   }
 
   .left{
@@ -27,12 +26,12 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
   }
 
   .get_ivory_app h6{
-    font-size: 2.2rem;
-    font-weight: 100;
+    font-size: 2.7rem;
+    font-weight: 200;
   }
 
   .ivory{
@@ -40,11 +39,10 @@ html{
     font-weight: 600;
   }
 
-  .banner-text{
-    text-align: center;
+  .left p{
     font-size: 1.5rem;
-    margin-top: 1.2rem;
     font-weight: 100;
+    margin-top: 3rem;
   }
   
   .right {
@@ -52,7 +50,6 @@ html{
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin-top: 3rem;
   }
   
   .right img{
@@ -65,36 +62,23 @@ html{
   .buttons{
     display: flex;
     flex-direction: column;
-    margin-top: -3rem;
+    margin-top: 3rem;
   }
 
   .google-button{
     margin-bottom: 0.625rem;
   }
 
-  /* .google-button a{
-    background-color: #1F1BF2;
-  } */
   .google-button img{
     width: 100%;
   }
-
-  /* .apple-button a{
-    background-color: #111;
-  } */
 
   .apple-button img{
     width: 100%;
   }
 
-  /* .fa{
-    margin-right: 0.625rem;
-    font-size: 1.5rem;
-    color: #fff;
-  } */
-
   .button-text:hover{
-    text-decoration: underline;
+    cursor: pointer;
   }
 
 }
@@ -107,8 +91,8 @@ html{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 3rem;
-    min-height: 100vh;
+    margin-top: 15rem;
+    max-height: 100vh;
     margin-bottom: 2rem;
   }
 
@@ -118,13 +102,13 @@ html{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
   }
 
   .get_ivory_app h6{
-    font-size: 3.2rem;
+    font-size: 5rem;
     margin-top: 3rem;
-    font-weight: 100;
+    font-weight: 200;
   }
 
   .ivory{
@@ -132,24 +116,11 @@ html{
     font-weight: 600;
   }
 
-  .banner-text{
-    text-align: center;
-    font-size: 4.5rem;
-    margin-top: 1.2rem;
-    font-weight: 100;
-    /* color: #444; */
+  .left p{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: 3rem;
   }
-
-  /* .left a{
-    display: inline-block;
-    width: 100%;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.125rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 0.625rem;
-  } */
   
   .right {
     display: flex;
@@ -159,8 +130,6 @@ html{
   }
   
   .right img{
-    height:50%;
-    width: 50%;
     align-items: center;
     justify-content: center;
   }  
@@ -168,6 +137,8 @@ html{
   .buttons{
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
+    /* background-color: #f21bce; */
   }
 
   .download-button{
@@ -177,28 +148,25 @@ html{
   }
 
   .google-button{
-    margin: 0 1rem 0.625rem 0;
+    margin-right: 3rem;
   }
-
-  /* .google-button a{
-    background-color: #1F1BF2;
-  } */
 
   .google-button img{
-    width: 100%;
+    height: 5rem;
   }
 
-  /* .apple-button a{
-    background-color: #111;
-  } */
-
   .apple-button img{
+    height: 5rem;
     width: 100%;
   }
 
   .fa{
     margin-right: 0.625rem;
     font-size: 2.5rem;
+  }
+
+  .button-text:hover{
+    cursor: pointer;
   }
 }
 
@@ -211,6 +179,7 @@ html{
     align-items: center;
     justify-content: center;
     margin-top: 8.5rem;
+    max-height: 80vh;
   }
 
   .left{
@@ -220,9 +189,22 @@ html{
     justify-content: center;
   }
 
+  .left p{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4.5rem;
+    font-weight: 100;
+    text-align: center;
+  }
+
   .get_ivory_app h6{
     font-size: 4rem;
-    font-weight: 100;
+    font-weight: 200;
+  }
+
+  .ivory{
+    color: #1F1BF2;
+    font-weight: 600;
   }
 
   .right {
@@ -237,61 +219,23 @@ html{
     width: 20rem;
   } 
 
-  }
-  
-  .ivory{
-    color: #1F1BF2;
-    font-weight: 600;
-  }
-
-  .banner-text{
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 4.5rem;
-    margin-top: 2.5rem;
-    font-weight: 100;
-  }
-
-  /* .left a{
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-    background-color: #1F1BF2; 
-    border-radius: 8px;
-  } */
-
   .buttons{
     display: flex;
   }
   
   .button-text:hover{
-    text-decoration: underline;
+    cursor: pointer;
   }
 
   .google-button{
     margin: 0 1rem 0.625rem 0;
   }
 
-  /* .google-button a{
-    background-color: #1F1BF2;
-  } */
-
   .google-button img{
     width: 12.5rem;
   }
 
-  /* .apple-button a{
-    background-color: #111;
-  } */
-
   .apple-button img{
     width: 12.5rem;
   }
-
-  /* .fa{
-    margin-right: 0.625rem;
-    font-size: 1.5rem;
-  } */
+}
